@@ -14,5 +14,6 @@ insert into articulos (codigo, nombre, descripcion, precio,cantidad)
   values (4,'teclado','ingles Biswal',100,50);
 select * from articulos;
 select codigo, nombre, descripcion, precio,cantidad from articulos where nombre='impresora';
+select * from articulos where precio>=500;
 select nombre,descripcion,precio ,cantidad from articulos where cantidad<20;
 select nombre,descripcion from articulos where precio<>100;
